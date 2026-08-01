@@ -1,4 +1,16 @@
 aid: scroll
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scroll.png
 name: Scroll
 description: Scroll is a company surfaced as a portfolio company of uncork-capital, union-square-ventures
   and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
@@ -25,3 +37,8 @@ maintainers:
 common:
 - type: Website
   url: https://scroll.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
